@@ -12,3 +12,10 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+/paramtemplate
+
+# This might be controversial in a go world, but I didn't grow up here. I can't
+# get my head around adding code available on github into a repo and godep
+# doesn't require it so I'm making a stand.
+/vendor
